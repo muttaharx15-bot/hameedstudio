@@ -2,7 +2,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #e9eef5; /* light blue-grey background */
+  background: #e9eef5; /* blue-grey background */
 }
 
 /* ===== LANGUAGE BAR ===== */
@@ -41,7 +41,7 @@ nav a {
 
 /* ===== MAIN CONTENT SECTIONS ===== */
 section {
-  background: white;
+  background: darkblue;
   margin: 20px auto;
   padding: 20px;
   border-radius: 8px;
