@@ -1,50 +1,68 @@
+/* ===== BASIC PAGE ===== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f4f4f4;
+  background: #e9eef5; /* light blue-grey background */
 }
 
+/* ===== LANGUAGE BAR ===== */
 .language-box {
   text-align: right;
   padding: 10px;
-  background: #ddd;
+  background: #f2f2f2;
 }
 
+/* ===== HEADER (YELLOW TOP) ===== */
 header {
-  background: #f5f7fa;
+  background: #f4c430; /* yellow */
   color: #222;
   text-align: center;
   padding: 25px;
 }
 
+header h1,
+header p {
+  margin: 5px 0;
+}
 
+/* ===== NAVIGATION (DARK BLUE) ===== */
 nav {
-  background: #e6e9ef;
+  background: #1f4e79; /* soft dark blue */
   padding: 12px;
   text-align: center;
 }
 
 nav a {
-  color: #003366;
-  margin: 15px;
+  color: white;
+  margin: 12px;
   text-decoration: none;
   font-weight: bold;
 }
 
+/* ===== MAIN CONTENT SECTIONS ===== */
 section {
   background: white;
-  margin: 20px;
+  margin: 20px auto;
   padding: 20px;
   border-radius: 8px;
+  max-width: 1000px;
 }
 
+section h2,
+section h3 {
+  color: #1f4e79;
+}
+
+/* ===== MAPS ===== */
 iframe {
   width: 100%;
   height: 300px;
   border: none;
   margin-bottom: 20px;
+  border-radius: 6px;
 }
 
+/* ===== WHATSAPP BUTTON (INLINE) ===== */
 .whatsapp {
   background: #25D366;
   color: white;
@@ -55,13 +73,15 @@ iframe {
   font-size: 18px;
 }
 
+/* ===== FOOTER ===== */
 footer {
-  background: #f5f7fa;
-  color: #333;
+  background: #1f4e79;
+  color: white;
   text-align: center;
-  padding: 10px;
+  padding: 12px;
 }
-/* Floating WhatsApp Button */
+
+/* ===== FLOATING WHATSAPP BUTTON ===== */
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -81,7 +101,4 @@ footer {
 
 .whatsapp-float:hover {
   background: #1ebe5d;
-}
-section h2, section h3 {
-  color: #003366;
 }
